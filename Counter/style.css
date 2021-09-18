@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 body {
     background-image: url("Joker-Wallpaper-Download.jpeg");
     background-repeat: no-repeat;
@@ -13,10 +14,12 @@ body {
     color: deeppink;
     overflow: hidden;
 }
-h1{
+
+h1 {
     align-self: flex-start;
 }
-.plus, .minus{
+
+.plus, .minus {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,10 +28,10 @@ h1{
     background-color: transparent;
     border: none;
     font-family: inherit;
-    color: deeppink;
-;
+    color: deeppink;;
 }
-.counter{
+
+.counter {
     left: calc(50% - 950px);
     top: calc(50% - 700px);
     font-size: 800px;
